@@ -183,43 +183,6 @@
     .our-team .team-info{ bottom: 65px; }
 }
 
-/*#menu {
-    list-style:none;
-    width:100%;
-    margin:5px 2px 0px auto;
-    height:15px;
-    padding:0px 5px 0px 5px;
-}
-
-#menu li {
-   float:left;
-    display:block;
-    text-align:center;
-    position:relative;
-    padding: 4px 10px 4px 10px;
-    margin-right:30px;
-    margin-top:7px;
-    border:none;
-}
-
-#menu li a {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:14px; 
-    color: #EEEEEE;
-    display:block;
-    outline:0;
-    text-decoration:none;
-    text-shadow: 1px 1px 1px #000;
-}
-
-#menu li .drop {
-    padding-right:21px;
-    background:url("Assets/Images/drop.png") no-repeat right 8px;
-}
-#menu li:hover .drop {
-    background:url("Assets/Images/drop.png") no-repeat right 7px;
-}*/
-
 #menu {
     list-style:none;
     width:100%;
@@ -320,8 +283,8 @@
 .dropdown_3columns  td a:hover{background-color:lightgreen}
 .dropdown_4columns .alumniheader:hover{background-color: lightblue}
 #menu li:hover .dropdown_1column{left:-1px;top:auto;}
-#menu li:hover .dropdown_3columns,
-#menu li:hover .dropdown_4columns{left:-25.5vw;top:auto;}
+#menu li:hover .dropdown_3columns {left:-25.5vw;top:auto;}
+#menu li:hover .dropdown_4columns {left:-15.5vw;top:auto;}
 
 
 
