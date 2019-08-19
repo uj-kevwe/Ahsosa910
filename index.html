@@ -34,41 +34,145 @@ and open the template in the editor.
     <body style="background-color:lightgreen">
         <header style=" z-index: 1; top:0;height: 8vw; background-color:white; width:100%; padding-top: 1vw;
                 padding-left: 3vw;padding-right: 3vw;"><!--position: fixed;-->
-            <div class="col-lg-6 col-md-4 col-sm-12 col-xs-12" style="float:left;">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="float:left;">
                 <img src="Assets/Images/ahsosa91logo.png" style="height:100%; width:50%">
             </div>
-            <div class="navbar" style="float:right;">
-                <a href="#home">Home</a>
-                <div class="subnav">
-                    <button class="subnavbtn">About Us<i class="fa fa-caret-down"></i></button>
-                    <div class="subnav-content">
-                        <a href="#">The General Alumni</a><br>
-                        <a href="#">1991 Alumni</a><br>
-                        <a href="#">Abesan High School</a><br>
-                        <a href="#">School Song</a><br>
-                        <a href="#">Alumni Anthem</a>
-                    </div>
-                </div> 
-                <div class="subnav">
-                    <button class="subnavbtn">Events <i class="fa fa-caret-down"></i></button>
-                    <div class="subnav-content">
-                        <a href="#bring">Annual Conventions</a>
-                        <a href="#deliver">Events Sponsorship</a>
-                        <a href="#package">Events Calendar</a>
-                        <a href="#express">Past Events</a>
-                    </div>
-                </div> 
-                <div class="subnav">
-                    <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
-                    <div class="subnav-content">
-                        <a href="#link1">Link 1</a>
-                        <a href="#link2">Link 2</a>
-                        <a href="#link3">Link 3</a>
-                        <a href="#link4">Link 4</a>
-                    </div>
-                </div>
-                <a href="#contact">Contact</a>
-            </div>
+
+            <div class="navbar col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="#" >About Us<i class="fa fa-caret-down"></i></a> <!--3 columns -->
+                        <div class="dropdown_3columns">
+                            <table style="">
+                                <tr>
+                                    <th>AHSOSA 1991 Set</th>
+                                    <th>Abesan High School</th>
+                                    <td rowspan="4">
+                                        <div class="alumniheader">Alumni Anthem</div>
+                                        <div>
+                                            Arise the great AHSOSAN <br>
+                                            You are the pride of your old school<br>
+                                            United,we stand! Divided,we fall!<br>
+                                            We have a brighter future.<br>
+
+                                            Our very dear Alma Mata,our motto is "Togetherness as of Old"<br>
+
+                                            No discrimination! No enmity! No barrier of course,we are one
+                                        </div>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://www.google.com">Who we are</a></td>
+                                    <td><a href="">Current State of Abesan High School</a></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td><a href="">What we do</a></td>
+                                    <td><a href="">School History</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">Complete Roll Call - 1991 Graduating set</a></td>
+                                    <td><a href="">Current and Past Principals</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Events<i class="fa fa-caret-down"></i></a><!-- 1 column -->
+                        <div class="dropdown_1column">
+                            <table>
+                                <tr>
+                                    <td><a href="">Annual Convention/Reunion</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">Calender of Events</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">Events Sponsorship</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">Past Events</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li> 
+                    <li>
+                        <a href="#">Connections<i class="fa fa-caret-down"></i></a> <!--4 columns -->
+                        <div class="dropdown_4columns">
+                            <table style="width:100%">
+                                <tr>
+                                    <td><a href="">Resources</a></td>
+                                    <td><a href="">Connect</a></td>
+                                    <td><a href="">Get Involved</a></td>
+                                    <td rowspan="6">
+                                        <div class="alumniheader">Quick Connect</div>
+                                        <div>
+                                            <a href=""><i class="fa fa-facebook">&nbsp;&nbsp;AHSOSA '91 facebook page</i></a><br>
+                                            <a href=""><i class="fa fa-twitter">&nbsp;&nbsp;AHSOSA '91 twitter page</i></a><br>
+                                            <a href=""><i class="fa fa-instagram">&nbsp;&nbsp;AHSOSA '91 instagram page</i></a><br>
+                                            <i class="fa fa-phone">&nbsp;&nbsp;AHSOSA '91 secretariat phone number</i><br>
+                                        </div>
+                                    
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">Newsroom</a></td>
+                                    <td><a href="">Photo gallery</a></td>
+                                    <td><a href="">Donate</a></td>
+
+                                </tr>
+                                <tr>
+                                    <td><a href="">FAQs</a></td>
+                                    <td><a href="">Video gallery</a></td>
+                                    <td><a href="">Projects</a></td>
+
+                                </tr>
+                                <tr>
+                                    <td><a href="">Members Only</a></td>
+                                    <td><a href="">Biz Connect</a></td>
+                                    <td><a href="">Membership dues</a></td>
+
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+
+                <!--             <a href="#home">Home</a>
+                             <div class="subnav">
+                                 <button class="subnavbtn">About Us<i class="fa fa-caret-down"></i></button>
+                                 <div class="subnav-content">
+                                     <a href="#">The General Alumni</a><br>
+                                     <a href="#">1991 Alumni</a><br>
+                                     <a href="#">Abesan High School</a><br>
+                                     <a href="#">School Song</a><br>
+                                     <a href="#">Alumni Anthem</a>
+                                 </div>
+                             </div> 
+                             <div class="subnav">
+                                 <button class="subnavbtn">Events <i class="fa fa-caret-down"></i></button>
+                                 <div class="subnav-content">
+                                     <a href="#bring">Annual Conventions</a>
+                                     <a href="#deliver">Events Sponsorship</a>
+                                     <a href="#package">Events Calendar</a>
+                                     <a href="#express">Past Events</a>
+                                 </div>
+                             </div> 
+                             <div class="subnav">
+                                 <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+                                 <div class="subnav-content">
+                                     <a href="#link1">Link 1</a>
+                                     <a href="#link2">Link 2</a>
+                                     <a href="#link3">Link 3</a>
+                                     <a href="#link4">Link 4</a>
+                                 </div>
+                             </div>
+                             <a href="#contact">Contact</a> -->
+            </div> 
         </header>
         <div class="container-fluid">
             <div class="row">
@@ -161,7 +265,7 @@ and open the template in the editor.
                             <div class="item active">
                                 <center>
                                     <div class="carousel-caption">
-                                        <img src="Assets/Images/structures/slider1.png" style="height:3vw">
+                                        <img src="Assets/Images/structures/slider1.png">
                                         <p>
 
                                         </p>
@@ -173,7 +277,7 @@ and open the template in the editor.
                         <div class="carousel-inner">
                             <div class="item active">
                                 <center>
-                                    <img src="Assets/Images/structures/slider2.png" style="height:3vw">
+                                    <img src="Assets/Images/structures/slider2.png">
                                     <div class="carousel-caption">
                                         <p>
 
