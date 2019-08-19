@@ -214,7 +214,7 @@
 .dropdown_4columns .alumniheader:hover{background-color: lightblue}
 #menu li:hover .dropdown_1column{left:-1px;top:auto;}
 #menu li:hover .dropdown_3columns {left:-25.5vw;top:auto;}
-#menu li:hover .dropdown_4columns {left:-15.5vw;top:auto;}
+#menu li:hover .dropdown_4columns {left:-1vw;top:auto;}
 
 
 
