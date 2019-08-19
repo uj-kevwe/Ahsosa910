@@ -223,20 +223,20 @@
 .col_4 {width:550px;}
 .col_5 {width:690px}
 
-@media only screen and (max-width: 990px){
+@media only screen and (max-width: 768px){
     .our-team{ margin-bottom: 20px; }
 }
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 600px){
     .our-team .social-icon{ right: 25px; }
     .our-team .team-info{ bottom: 30px; }
 }
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 480px){
     .our-team .team-info{ bottom: 65px; }
 }
-@media only screen and (max-width: 160px){
+@media only screen and (max-width: 320px){
     .dropdown_1column, 
     .dropdown_3columns,
-    .dropdown_4columns {width: 400px;left:0; }
+    .dropdown_4columns {width: 300px;left:0; }
 }
 
 /*td th {border-right: 2px solid blue}*/
