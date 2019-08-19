@@ -236,7 +236,7 @@
 @media only screen and (max-width: 320px){
     .dropdown_1column, 
     .dropdown_3columns,
-    .dropdown_4columns {width: 310px;left:0; }
+    .dropdown_4columns {width: 100%;left:0; }
 }
 
 /*td th {border-right: 2px solid blue}*/
